@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  color: red;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+    padding-inline-start: 0px;
+    text-align: center;
+}
+input {
+  margin-right: 40px;
+  background: beige;
+  width: 250px;
+}
+li {
+  width: min-content;
+}
+img {
+  width: 30vw;
+}
+.description {
+  font-style: italic;
+
+  font-size: 13px;
+}
+.articles {
+  text-align: right
+}
